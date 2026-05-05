@@ -4,6 +4,7 @@
     {
       "id": "nexus-1214",
       "name": "NexusClient 1.21.4",
+      "type": "VersionedServer",
       "description": "Oficjalny serwer Igrzyska - Fabric 1.21.4",
       "icon": "https://raw.githubusercontent.com/helios-launcher/Files/master/icons/server_icon.png",
       "minecraftVersion": "1.21.4",
