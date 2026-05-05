@@ -4,32 +4,44 @@
     {
       "id": "nexus-1214",
       "name": "NexusClient 1.21.4",
-      "description": "Serwer Fabric 1.21.4",
+      "description": "Oficjalny serwer Igrzyska - Fabric 1.21.4",
       "icon": "https://raw.githubusercontent.com/helios-launcher/Files/master/icons/server_icon.png",
       "version": "1.21.4",
-      "address": "127.0.0.1",
+      "address": "igrzyska.free.smrh.pl",
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
         "suggestedMajor": 21
       },
       "modules": [
-    {
-        "id": "net.fabricmc:fabric-loader:0.16.9",
-        "name": "Fabric Loader",
-        "type": "Library",
-        "artifact": {
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader",
+          "type": "Library",
+          "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
             "size": 0
-        }
-    },
-    {
-        "id": "fabric-api",
-        "name": "Fabric API",
-        "type": "ForgeMod",
-        "artifact": {
+          }
+        },
+        {
+          "id": "fabric-api",
+          "name": "Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
             "url": "https://github.com/FabricMC/fabric-api/releases/download/0.113.0+1.21.4/fabric-api-0.113.0+1.21.4.jar",
             "size": 0
+          }
+        },
+        {
+          "id": "sodium",
+          "name": "Sodium",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://github.com/szymus01924/nexus-distro/blob/main/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
+            "size": 0
+          }
         }
+      ]
     }
-]
+  ]
+}
