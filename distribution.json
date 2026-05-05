@@ -37,7 +37,7 @@
           "name": "Sodium",
           "type": "ForgeMod",
           "artifact": {
-            "url": "https://github.com/szymus01924/nexus-distro/blob/main/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
+            "url": "https://raw.githubusercontent.com/szymus01924/nexus-distro/main/sodium-fabric-0.6.13+mc1.21.4.jar",
             "size": 0
           }
         }
