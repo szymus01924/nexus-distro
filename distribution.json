@@ -14,16 +14,22 @@
         "suggestedMajor": 21
       },
       "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.16.9",
-          "name": "Fabric Loader",
-          "type": "Library",
-          "artifact": {
+    {
+        "id": "net.fabricmc:fabric-loader:0.16.9",
+        "name": "Fabric Loader",
+        "type": "Library",
+        "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
             "size": 0
-          }
         }
-      ]
+    },
+    {
+        "id": "fabric-api",
+        "name": "Fabric API",
+        "type": "ForgeMod",
+        "artifact": {
+            "url": "https://github.com/FabricMC/fabric-api/releases/download/0.113.0+1.21.4/fabric-api-0.113.0+1.21.4.jar",
+            "size": 0
+        }
     }
-  ]
-}
+]
