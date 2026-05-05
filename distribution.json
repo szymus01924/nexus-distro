@@ -7,7 +7,7 @@
       "description": "Serwer Fabric 1.21.4",
       "icon": "https://raw.githubusercontent.com/helios-launcher/Files/master/icons/server_icon.png",
       "version": "1.21.4",
-      "address": "TWOJE_IP_SERWERA:25565",
+      "address": "127.0.0.1",
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
